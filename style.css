@@ -1,0 +1,57 @@
+#fizzbuzz-list{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DFDCE3;
+    margin: 0;
+}
+
+.box{
+    color: white;
+    margin: 15px;
+    font-size: 18pt;
+    border-radius: 10px;
+    width: 82px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fizz {
+    padding: 10px;
+    background-color: #4abdac;
+}
+
+.buzz {
+    padding: 10px;
+    background-color: #f78733; 
+}
+
+.fizzbuzz {
+    padding: 10px;
+    background-color: #fc4a1a;
+}
+
+.number {
+    padding: 10px;
+    background-color: #07889b;    
+}
+
+.box:hover {
+    background-color: White;
+}
+
+.fizz:hover {
+color: #4abdac;   
+}
+
+.buzz:hover {
+color: #f78733;
+}
+
+.fizzbuzz:hover {
+color: #fc4a1a;
+}
+
+.number:hover {
+color: #07889b;
+}
